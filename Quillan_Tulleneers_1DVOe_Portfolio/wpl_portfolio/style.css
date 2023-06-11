@@ -1,0 +1,396 @@
+
+body {
+    background-image: url(assets/background.png);
+    background-attachment: fixed;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: "Segoe UI";
+    color: white;
+    font-size: 100px;
+
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-family: "Segoe UI";
+    color: white;
+    font-size:80px;
+}
+a {
+     text-decoration: none;
+     color: white;
+ }
+li {
+      margin: 10px;
+      list-style-type: none;
+  }
+a:hover {
+       color: #F7FF00;
+   }
+.titles {
+    display: flex;
+    justify-content: space-evenly;
+    color: #F7FF00;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+
+}
+
+.nav-links {
+    display: flex;
+ position: fixed;
+    top: 0;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-self: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
+.text-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    font-size: 30px;
+    padding-left: 7px;
+}
+
+
+.items{
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.item-product{
+    padding-top: 100px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+justify-content: space-evenly;
+justify-items: left;
+    flex-wrap: wrap;
+
+
+}
+.image-dojo{
+    max-height: 500px;
+}
+.text-product{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+}
+.image-product{
+    width: 80%;
+    max-width: 1000px;
+}
+.item-left{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 200px;
+
+}
+.item-right{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding-bottom: 200px;
+
+}
+.image-mw{
+    flex-basis: 7%;
+    max-width: 500px;
+}
+.info-link{
+    color: #F7FF00;
+    font-size: 20px;
+}
+.lijn1{
+    padding: 20px;
+    max-height: 250px;
+}
+.lijn{
+padding: 50px;
+}
+
+
+.active {
+    color: #F7FF00;
+}
+.active2 {
+    border: 2px solid #F7FF00;
+    padding: 1em 2.2em;
+    border-radius: 3em;
+    background-color: transparent;
+    color: #F7FF00;
+    cursor: pointer;
+}
+
+
+p {
+    font-family: "Segoe UI";
+    color: white;
+}
+
+.text-inhoud {
+
+    font-size: 20px;
+    min-width: 200px;
+    max-width: 500px;
+}
+
+.text-naam {
+    font-size: 30px;
+    padding-left: 7px;
+}
+
+.text-student {
+    font-size: 20px;
+
+}
+
+
+.logo{
+    position: absolute;
+    top: 25px;
+    left: 900px;
+width: 15%;
+
+
+}
+
+.image-home{
+    width: 43%;
+}
+
+
+.hr {
+    width: 80%;
+    border-color: #F7FF00;
+}
+.hr2 {
+    width: 50%;
+    border-color: #F7FF00;
+    margin-bottom: 100px;
+}
+.container2{
+    width: auto;
+
+}
+.metlijn {
+
+    display: flex;
+    align-items: center;
+
+}
+
+.pdf{
+   min-width: 90%;
+    height: 975px;
+
+}
+
+.item-pdf{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.logo2{
+    width: 0;
+}
+@media only screen and (max-width: 992px) {
+    .image-home{
+        padding-top: 10px;
+        width: 99%;
+    }
+
+    .logo{
+        visibility: hidden;
+        max-height: 0;
+        max-width: 0;
+        position: relative;
+
+    }
+    .logo2{
+width: 50%;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+        font-size: 13px;
+    }
+    .titles {
+        display: flex;
+        justify-content: space-evenly;
+        color: #F7FF00;
+        font-size: 12px;
+    }
+    .text-item {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-size: 20px;
+
+
+    }
+
+    .hr2 {
+        width: 50%;
+        border-color: #F7FF00;
+        margin-bottom: 50px;
+    }
+    .item-left{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-bottom: 50px;
+        flex-direction: column-reverse;
+
+    }
+br{
+    visibility: hidden;
+}
+.knop{
+
+
+
+}
+    .item-right{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column-reverse;
+        padding-bottom: 50px;
+
+    }
+    h2 {
+          display: flex;
+          justify-content: center;
+          font-family: "Segoe UI";
+          color: white;
+          font-size:30px;
+      }
+    h1{
+        display: flex;
+        justify-content: center;
+        font-family: "Segoe UI";
+        color: white;
+        font-size: 50px;
+        padding-top: 10px;
+
+    }
+
+    .image-mw{
+        flex-basis: 1%;
+        max-width: 200px;
+    }
+
+.lijn{
+visibility: hidden;
+    max-height: 0;
+    padding: 0;
+}
+    .lijn1{
+        visibility: hidden;
+        max-height: 0;
+        padding: 0;
+    }
+    body {
+        background-image: url(assets/backgroundphone.png);
+        background-attachment: fixed;
+    }
+.layer {
+    position: absolute
+
+}
+    .container {
+
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        align-self: flex-start;
+        align-content: center;
+
+    }
+
+    .text-inhoud {
+
+        font-size: 20px;
+        min-width: 100px;
+        max-width: 400px;
+        padding: 20px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px;
+
+    }
+}
+
+@media only screen and (max-width: 1180px) {
+
+    .logo{
+
+        visibility: hidden;
+        max-height: 0;
+        max-width: 0;
+    }
+    .logo2{
+        width: 50%;
+    }
+    .pdf{
+        min-width: 90%;
+        height: 975px;
+
+    }
+    .lijn{
+        visibility: hidden;
+        max-height: 0;
+        padding: 0;
+    }
+
+    .items{
+        flex-direction: column;
+
+
+    }
+    .image-mw{
+        flex-basis: 1%;
+        max-width: 400px;
+    }
+    .hr2 {
+        width: 50%;
+        border-color: #F7FF00;
+        margin-bottom: 50px;
+    }
+    .container {
+
+        display: flex;
+        align-self: flex-start;
+        align-content: center;
+        flex-wrap: wrap-reverse;
+    }
+
+
+}
